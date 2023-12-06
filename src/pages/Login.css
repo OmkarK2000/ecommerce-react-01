@@ -1,0 +1,29 @@
+.loginCon{
+  width: calc(100vw - scroll);
+  height: calc(100vh - 80px);
+  background-color: lightgray;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerDiv{
+  background-color: whitesmoke;
+  width: 300px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.innerDiv button{
+  margin:  10px 0;
+}
+
+.loginCon form{
+  
+}

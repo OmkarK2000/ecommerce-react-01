@@ -13,7 +13,7 @@ const Navbar = () => {
       <h1><Link to="/">Logo</Link></h1>
       <span>
         <ul className="nav-items">
-          <li><Link to="/home">Home</Link></li>
+          <li><Link to="/">Home</Link></li>
           <li><Link to="/products">Products</Link></li>
           <li><Link to="/about">About</Link> </li>
           <li><Link to="/contact">Contact</Link> </li>
@@ -28,7 +28,7 @@ const Navbar = () => {
         
       </span>
       {toggle ? <ul className="toggle-items">
-          <li><Link to="/home">Home</Link></li>
+          <li><Link to="/">Home</Link></li>
           <li><Link to="/products">Products</Link></li>
           <li><Link to="/about">About</Link> </li>
           <li><Link to="/contact">Contact</Link> </li>
