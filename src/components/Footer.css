@@ -1,0 +1,37 @@
+.footer{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+  color: white;
+}
+
+.footer h4{
+  font-size: 24px;
+  /* padding-bottom: 10px; */
+}
+
+.footerContainer{
+  padding: 20px 0;
+}
+
+.line{
+  background-color: red;
+  width: 50px;
+  height: 2px;
+  margin: 10px 0;
+}
+
+.footer p{
+  padding: 5px 0;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 800px){
+  .footer{
+    padding: 0 40px;
+    flex-direction: column;
+  }
+
+  
+}

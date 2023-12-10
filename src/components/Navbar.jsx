@@ -4,7 +4,7 @@ import { FaBars } from "react-icons/fa";
 import "./Navbar.css"
 import { useState } from "react";
 
-const Navbar = () => {
+const Navbar = ({count}) => {
 
   const [toggle, setToggle] = useState(false)
 
@@ -18,11 +18,11 @@ const Navbar = () => {
           <li><Link to="/about">About</Link> </li>
           <li><Link to="/contact">Contact</Link> </li>
           <li><Link to="/login">Login</Link> </li>
-          <li><Link to="/cart"><FaCartShopping className="cart" /></Link></li>
+          <li><Link to="/cart"><FaCartShopping className="cart" /><sup>{count}</sup></Link></li>
         </ul>
         <ul className="responsive-nav-items">
           <li><Link to="/login">Login</Link> </li>
-          <li><Link to="/cart"><FaCartShopping className="cart" /></Link></li>
+          <li><Link to="/cart"><FaCartShopping className="cart" /><sup>{count}</sup></Link></li>
           <button className="toggleBtn" onClick={()=> setToggle(!toggle)}><FaBars /></button>
         </ul>
         
